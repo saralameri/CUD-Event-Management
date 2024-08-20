@@ -1,0 +1,74 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          Int      @id @default(autoincrement())
+  firstName   String
+  lastName    String
+  email       String   @unique
+  department  String
+  events      EventUser[]
+  comments  Comment[]
+}
+
+model Event {
+  id          Int       @id @default(autoincrement())
+  title       String
+  description String
+  location    String
+  date        String
+  startTime   String
+  endTime     String
+  subCategory SubCategory  @relation(fields: [subCategoryId], references: [id])
+  subCategoryId Int 
+  subCategoryName String 
+  category    Category  @relation(fields: [categoryId], references: [id]) 
+  categoryId Int 
+  categoryName String 
+  comment        Comment[]
+  participants EventUser[]
+}
+
+model EventUser {
+  id       Int     @id @default(autoincrement())
+  user     User    @relation(fields: [userId], references: [id])
+  userId   Int
+  event    Event   @relation(fields: [eventId], references: [id])
+  eventId  Int 
+}
+
+model Category{
+  id     Int     @id @default(autoincrement())
+  name  String
+  subCategory    SubCategory[]
+  event Event[] 
+}
+
+model SubCategory{
+  id     Int     @id @default(autoincrement())
+  name  String
+  description String
+  category    Category   @relation(fields: [categoryId], references: [id])
+  categoryId Int 
+  events  Event[] 
+}
+
+model Comment {
+  id       Int           @id @default(autoincrement())
+  user   User       @relation(fields: [userId], references: [id])
+  userId  Int       
+  text     String
+  event    Event         @relation(fields: [eventId], references: [id])
+  eventId  Int          
+}
+
+

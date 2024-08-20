@@ -1,0 +1,172 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "20220001268@students.cud.ac.ae",
+    "department": "School of Architecture and Interior Design",
+    "events": [
+      {
+        "title": "Event1",
+        "description": "Description of Event1",
+        "dateStart": "2024-03-10T08:00:00Z",
+        "dateEnd": "2024-03-10T12:00:00Z"
+      },
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "20230008467@students.cud.ac.ae",
+    "department": "Faculty of Communication, Arts and Sciences",
+    "events": [
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Johnson",
+    "email": "20240012093@students.cud.ac.ae",
+    "department": "School of Management",
+    "events": [
+      {
+        "title": "Event1",
+        "description": "Description of Event1",
+        "dateStart": "2024-03-10T08:00:00Z",
+        "dateEnd": "2024-03-10T12:00:00Z"
+      },
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "Brown",
+    "email": "20210007651@students.cud.ac.ae",
+    "department": "School of Engineering, Applied Science and Technology",
+    "events": [
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "David",
+    "lastName": "Lee",
+    "email": "20220003958@students.cud.ac.ae",
+    "department": "School of Architecture and Interior Design",
+    "events": [
+      {
+        "title": "Event1",
+        "description": "Description of Event1",
+        "dateStart": "2024-03-10T08:00:00Z",
+        "dateEnd": "2024-03-10T12:00:00Z"
+      },
+      {
+        "title": "Event3",
+        "description": "Description of Event3",
+        "dateStart": "2024-03-12T08:00:00Z",
+        "dateEnd": "2024-03-12T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Sarah",
+    "lastName": "Williams",
+    "email": "20220005239@students.cud.ac.ae",
+    "department": "Faculty of Communication, Arts and Sciences",
+    "events": [
+      {
+        "title": "Event3",
+        "description": "Description of Event3",
+        "dateStart": "2024-03-12T08:00:00Z",
+        "dateEnd": "2024-03-12T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Christopher",
+    "lastName": "Martinez",
+    "email": "20230009875@students.cud.ac.ae",
+    "department": "School of Management",
+    "events": [
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Jessica",
+    "lastName": "Taylor",
+    "email": "20240002418@students.cud.ac.ae",
+    "department": "School of Engineering, Applied Science and Technology",
+    "events": [
+      {
+        "title": "Event1",
+        "description": "Description of Event1",
+        "dateStart": "2024-03-10T08:00:00Z",
+        "dateEnd": "2024-03-10T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Matthew",
+    "lastName": "Garcia",
+    "email": "20210003762@students.cud.ac.ae",
+    "department": "School of Architecture and Interior Design",
+    "events": [
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      },
+      {
+        "title": "Event3",
+        "description": "Description of Event3",
+        "dateStart": "2024-03-12T08:00:00Z",
+        "dateEnd": "2024-03-12T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Amanda",
+    "lastName": "Thomas",
+    "email": "20230007195@students.cud.ac.ae",
+    "department": "Faculty of Communication, Arts and Sciences",
+    "events": [
+      {
+        "title": "Event3",
+        "description": "Description of Event3",
+        "dateStart": "2024-03-12T08:00:00Z",
+        "dateEnd": "2024-03-12T12:00:00Z"
+      },
+      {
+        "title": "Event2",
+        "description": "Description of Event2",
+        "dateStart": "2024-03-11T08:00:00Z",
+        "dateEnd": "2024-03-11T12:00:00Z"
+      }
+    ]
+  }
+]
